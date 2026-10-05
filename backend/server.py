@@ -4,7 +4,8 @@ import json, hashlib, os, socket, ipaddress, secrets, ssl, urllib.parse, http.cl
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-HOST='127.0.0.1'; PORT=8000
+HOST = '0.0.0.0'
+PORT = int(os.environ.get("PORT", "8000"))
 ROOT=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATE=os.path.join(ROOT,'backend/security_state.json')
 AUDIT=os.path.join(ROOT,'backend/sentinelscan_audit.jsonl')
