@@ -1,0 +1,14 @@
+{
+  "manifest": {
+    "format": "SentinelScan audit anchor v1",
+    "anchored_at": "2026-10-04T23:10:48.109618+00:00",
+    "audit_file": "backend/sentinelscan_audit.jsonl",
+    "audit_sha256": "399e0e19a63658368ae8dc688e1d4cba0e775c1ec1058c370c67932286c6dd84",
+    "records": 3,
+    "first_hash": "ddd64f893118d8a041a85074abfc6ac3f4c978b5744ebcb756bd2f5ae9b4c368",
+    "last_hash": "9a957bddcd721204fd92bd681af0dc72ca476c3835181d67fabba53f11d11f06",
+    "chain_ok": true
+  },
+  "signature": "ef5dff07610f1d9349e31dbe5b17bcd77b9d7719b44b3fec4bf8419527a06103",
+  "signature_alg": "HMAC-SHA256"
+}
